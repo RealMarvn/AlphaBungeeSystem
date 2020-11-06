@@ -1,5 +1,6 @@
 package de.bungee.main;
 
+import de.bungee.commands.Ping;
 import net.md_5.bungee.api.plugin.Plugin;
 
 public class Main extends Plugin {
@@ -9,7 +10,7 @@ public class Main extends Plugin {
         super.onEnable();
         System.out.println("AlphaBungeeSystem online");
 
-
+        getProxy().getPluginManager().registerCommand(this, new Ping());
 
     }
 
