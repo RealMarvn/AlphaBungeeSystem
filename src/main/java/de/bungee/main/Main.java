@@ -8,6 +8,9 @@ public class Main extends Plugin {
     public void onEnable() {
         super.onEnable();
         System.out.println("AlphaBungeeSystem online");
+
+
+
     }
 
     @Override
